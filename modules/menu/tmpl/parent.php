@@ -1,0 +1,1 @@
+<li><a href='<?echo $row['link'];?>'><? echo $row['view'];?></a></li>

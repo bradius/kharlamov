@@ -1,0 +1,1 @@
+<li><a href='<?echo $res['link'];?>'><? echo $res['view'];?></a></li>
