@@ -44,4 +44,4 @@
 			else {error::show('inc_broken',$module);}
 		}	
 	}
-?>
+    $admin = new admin();

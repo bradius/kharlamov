@@ -4,4 +4,3 @@
 		if(is_object($checkPage)) echo $checkPage;
 	}
 	else include($modCore["PATH"].$modCore["INDEX"]);
-?>

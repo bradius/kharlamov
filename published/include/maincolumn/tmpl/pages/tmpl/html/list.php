@@ -3,27 +3,27 @@
 		<p><?=$inc;?></p>
 	</div>
 	<div id="col" class="title">
-		<p><?=$viewContent["ID"][$inc]["TITLE"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["TITLE"];?></p>
 	</div>
 	<div id="col" class="date">
-		<p><?=$viewContent["ID"][$inc]["DATE"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["DATE"];?></p>
 	</div>
 	<div id="col" class="author">
-		<p><?=$viewContent["ID"][$inc]["AUTHOR"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["AUTHOR"];?></p>
 	</div>
 	<div id="col" class="hits">
-		<p><?=$viewContent["ID"][$inc]["HITS"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["HITS"];?></p>
 	</div>
 	<div id="col" class="section">
-		<p><?=$viewContent["ID"][$inc]["SECTION"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["SECTION"];?></p>
 	</div>
 	<div id="col" class="category">
-		<p><?=$viewContent["ID"][$inc]["CATEGORY"];?></p>
+		<p><?=$viewContent["MSG"][$inc]["CATEGORY"];?></p>
 	</div>
 	<div id="col" class="edit_bttn">
-		<a href="?option=pages&edit=<?=$inc?>">Изменить</a>
+		<a href="?option=pages&edit&id=<?=$inc?>">Изменить</a>
 	</div>
 	<div id="col" class="del_bttn">
-		<a href="?option=pages&delete=<?=$inc?>">Удалить</a>	
+		<a href="?option=pages&delete&id=<?=$inc?>">Удалить</a>
 	</div>
 </div>

@@ -1,7 +1,7 @@
 <?
 	if(isset($_GET['edit'])){
 		if(isset($_GET["id"])){
-			$viewContent = pages::select($_GET["id"]);
+			$viewContent = $pages::select($_GET["id"]);
 			include($path."pages/tmpl/html/item.php");
 		}
 	}
@@ -12,10 +12,10 @@
 	
 	}
 	else{
-		$viewContent = pages::select("all");
+		$viewContent = $pages::select("all");
 		if(!is_array($viewContent)) echo $viewContent;
 		else{
-			$sum = count($viewContent["ID"]);
+			$sum = count($viewContent["MSG"]);
 			for($inc = 1; $inc <= $sum; $inc++){
 				include($path."/pages/tmpl/html/list.php");
 			} 

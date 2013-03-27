@@ -127,7 +127,6 @@ font-size:20px;
 }
 div#menu{
 height:50px;
-margin-bottom:20px;
 border:1px solid silver;
 background:#f4f4f4;
 }
@@ -202,6 +201,95 @@ div#col.edit_bttn a,div#col.del_bttn a{
 color:black;
 text-decoration:none;
 }
+/*Pages Editor*/
+div#itemCol{
+    float:left;
+
+}
+div#itemCol.left{
+    width:202px;
+    font-family:agora;
+    border-right:1px solid silver;
+    border-bottom:1px solid silver;
+    padding-top:20px;
+    padding-left:10px;
+}
+div#itemCol.right{
+    min-width:680px;
+}
+form#editItem{
+    width:96%;
+    min-width:900px;
+    /* margin-left:2%;
+     margin-right:2%;*/
+}
+form#editItem label{
+    display:block;
+    font-size:16px;
+    line-height:20px;
+}
+form#editItem label.pageContent{
+    height:30px;
+    line-height:30px;
+    font-size:20px;
+    background:#e4e4e4;
+    border-bottom:1px solid silver;
+    border-right:1px solid silver;
+    padding-left:20px;
+    font-family:sanspro_b;
+}
+form#editItem select{
+    display:block;
+    width:190px;
+    margin:5px;
+    background:white;
+    height:20px;
+    line-height:20px;
+    border:1px solid silver;
+}
+form#editItem select:hover{
+    cursor:pointer;
+    background:#e4e4e4;
+}
+form#editItem select option:hover{
+    cursor:pointer;
+    background:#e4e4e4;
+}
+form#editItem input[type=text]{
+    border:1px solid silver;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    width:190px;
+    margin:5px;
+}
+form#editItem input[name=hits],form#editItem input[name=date],form#editItem input[name=author]{
+    text-align:center;
+}
+form#editItem div#itemCol.left textarea{
+    border:1px solid silver;
+    min-width:190px;
+    max-width:190px;
+    min-height:50px;
+    margin:5px;
+    padding:0;
+    line-height:20px;
+    font-size:14px;
+}
+form#editItem textarea#itemContent{
+    clear:both;
+}
+div#editor{
+    min-height:386px;
+    background:#535353;
+    border-bottom:1px solid silver;
+    border-right:1px solid silver;
+}
+div#editor table#itemContent_tbl{
+    min-height:386px;
+    border:0;
+}
+/*Others*/
 p.error{
 font-family: agora;
 font-size:14px;

@@ -3,7 +3,7 @@
 	include('template/tmpl/header.php');
 ?>
 <div id="wrapper">
-	<?admin::init("maincolumn");?>
+	<?$admin::init("maincolumn");?>
 </div>
 <?
 	include('template/tmpl/footer.php');

@@ -5,7 +5,7 @@
 			else $sql = mysql_query("select * from pages  where id='".$id."'");		
 			if(mysql_num_rows($sql) == 0) return error::show('mysql_request','mysql');
 			while($row = mysql_fetch_array($sql)){
-				$result["ID"][$row["id"]] = array(
+				$result["MSG"][$row["id"]] = array(
 						"TITLE" => $row["title"],
 						"CONTENT" => $row["content"],
 						"DATE" => $row["date"],
@@ -43,6 +43,4 @@
             return $html;
         }
 	}
-	
-
-?>
+$pages = new pages();
