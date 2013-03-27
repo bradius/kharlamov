@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2097287911">
+    <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.1.61" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="a89f0b6d-49e0-44cf-94d1-e61c234ec87f">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://188.93.211.16/kharlamov</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df8bdfc5dfd8dfc8dfc3dfd9dfeadfebdfd8dfdedf9bdf98df99df9f</user-password>
+      <schema-pattern>kharlamov.*</schema-pattern>
+      <default-schemas>kharlamov.*</default-schemas>
+      <default-dialect>MySQL</default-dialect>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/../../!require/mysql-connector-java-5.1.22-bin.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/../../!require/mysql-connector-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
