@@ -33,6 +33,6 @@
 		<a href="?option=pages&edit&id=<?=$inc?>">Изменить</a>
 	</div>
 	<div id="col" class="del_bttn">
-		<a href="?option=pages&delete&id=<?=$inc?>">Удалить</a>
+		<a href="?option=editHandler&delete&id=<?=$inc?>">Удалить</a>
 	</div>
 </div>

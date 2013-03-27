@@ -19,7 +19,8 @@
 	define("ROOT",$_SERVER['DOCUMENT_ROOT']."/published/");
 	
 	include_once('core/errors.php');
-	
+	include_once('core/success.php');
+
 	class database extends mysqli{
 		private $host;
 		private $user;

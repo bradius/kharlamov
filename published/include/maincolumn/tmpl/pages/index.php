@@ -29,9 +29,12 @@
 		}
         function showCategories($id){
             $html = "";
-            $sql = mysql_query("select category from pages where id=".$id);
-            $row = mysql_fetch_array($sql);
-            $option = $row["category"];
+            if($id != 'all'){
+                $sql = mysql_query("select * from pages where id=".$id);
+                $row = mysql_fetch_array($sql);
+                $option = $row["category"];
+            }
+            else $option = 1;
             $sql = mysql_query("select * from categories");
             while($row = mysql_fetch_array($sql)){
                 if($row["id"] == $option) $html .= "<option selected value=".$row["id"].">".$row["name"]."</option>";
@@ -41,9 +44,12 @@
         }
         function showSections($id){
             $html = "";
-            $sql = mysql_query("select section from pages where id =".$id);
-            $row = mysql_fetch_array($sql);
-            $option = $row["section"];
+            if($id != 'all'){
+                $sql = mysql_query("select section from pages where id =".$id);
+                $row = mysql_fetch_array($sql);
+                $option = $row["section"];
+            }
+            else $option = 1;
             $sql = mysql_query("select * from sections");
             while($row = mysql_fetch_array($sql)){
                 if($row["id"] == $option) $html .= "<option selected value=".$row["id"].">".$row["name"]."</option>";

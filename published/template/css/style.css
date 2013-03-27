@@ -270,21 +270,39 @@ form#editItem input[type=text]{
     width:190px;
     margin:5px;
 }
+form#editItem input[name=title]{
+    padding-left:5px;
+    width:185px;
+}
 form#editItem input[name=hits],form#editItem input[name=date],form#editItem input[name=author]{
     text-align:center;
 }
 form#editItem div#itemCol.left textarea{
     border:1px solid silver;
-    min-width:190px;
-    max-width:190px;
+    min-width:180px;
+    max-width:180px;
     min-height:50px;
     margin:5px;
-    padding:0;
+    padding:5px;
     line-height:20px;
     font-size:14px;
 }
 form#editItem textarea#itemContent{
     clear:both;
+}
+form#editItem input[type=submit].bottomButton{
+    display:block !important;
+    float:left;
+    border:1px solid silver;
+    height:30px !important;
+    text-align:center;
+    margin:5px;
+    padding:5px;
+    width:90px;
+}
+form#editItem input[type=submit].bottomButton:hover{
+    background:#f4f4f4;
+    cursor:pointer;
 }
 div#editor{
     min-height:386px;
@@ -296,6 +314,10 @@ div#editor table#itemContent_tbl{
     min-height:386px;
     border:0;
 }
+div#editor table#itemContent_tbl iframe{
+    height:258px !important;
+}
+
 /*Others*/
 p.error{
 font-family: agora;
@@ -310,4 +332,18 @@ margin:0 auto;
 }
 p.error span{
 font-weight:bold;
+}
+p.success{
+    font-family: agora;
+    font-size:14px;
+    border:3px solid greed;
+    background:rgb(159, 255, 155);
+    height:80px;
+    width:194px;
+    text-align:center;
+    padding-top:20px;
+    margin:0 auto;
+}
+p.success span{
+    font-weight:bold;
 }

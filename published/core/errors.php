@@ -30,11 +30,24 @@ class error{
 			case "chk_pwrd":
 				$html .= "Password is not correct.\n";
 			break;
-		}
+            case "hndlr_vars":
+                $html .= "Received no arguments\n";
+            break;
+            case "mysql_del":
+                $html .= "Cant delete item\n";
+            break;
+            case "mysql_edit":
+                $html .= "Cant update item info\n";
+            break;
+            case "mysql_add":
+                $html .= "Cant add new item\n";
+            break;
+            }
 		$html .= "<br/><br/>";
 		$html .= "Error was sent by <span>".$where."</span>";
 		$html .= "</p>";
 		echo $html;
 	}
 }
+$error = new error();
 ?>

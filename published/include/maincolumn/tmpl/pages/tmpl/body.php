@@ -15,11 +15,8 @@
 		}
 	}
 	elseif(isset($_GET["add"])){
-	
+        include($path."pages/tmpl/html/item.php");
 	} 
-	elseif(isset($_GET["delete"])){
-	
-	}
 	else{
 		$viewContent = $pages::select("all");
 		if(!is_array($viewContent)) echo $viewContent;
