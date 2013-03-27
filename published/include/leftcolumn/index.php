@@ -1,3 +1,10 @@
+/*
+    Kharlamov Engine
+    Created by Mike Bradius
+    http://bradius.ru
+    Full source at https://github.com/bradius/kharlamov
+    2013
+*/
 <?
 	if(isset($_GET["logout"])) unset($_SESSION["USER"]);
 	if(isset($_POST['login'])){

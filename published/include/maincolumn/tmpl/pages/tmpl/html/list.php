@@ -1,3 +1,10 @@
+/*
+    Kharlamov Engine
+    Created by Mike Bradius
+    http://bradius.ru
+    Full source at https://github.com/bradius/kharlamov
+    2013
+*/
 <div id="item" <?if(($inc % 2) == 0):?> class="grey"<?endif;?>>
 	<div id="col" class="id">
 		<p><?=$inc;?></p>
