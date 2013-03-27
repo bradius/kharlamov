@@ -1,3 +1,4 @@
+<?php
 /*
     Kharlamov Engine
     Created by Mike Bradius
@@ -5,6 +6,7 @@
     Full source at https://github.com/bradius/kharlamov
     2013
 */
+?>
 <?
 	if(isset($_GET["option"])){
 		$checkPage = option($_GET["option"],$modCore["PATH"]);

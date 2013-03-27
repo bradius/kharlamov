@@ -1,3 +1,4 @@
+<?php
 /*
     Kharlamov Engine
     Created by Mike Bradius
@@ -5,3 +6,4 @@
     Full source at https://github.com/bradius/kharlamov
     2013
 */
+?>

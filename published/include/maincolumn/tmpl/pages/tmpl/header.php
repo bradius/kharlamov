@@ -1,3 +1,4 @@
+<?php
 /*
     Kharlamov Engine
     Created by Mike Bradius
@@ -5,6 +6,7 @@
     Full source at https://github.com/bradius/kharlamov
     2013
 */
+?>
 <div id="header">
 	<h1>Материалы</h1>
 </div>

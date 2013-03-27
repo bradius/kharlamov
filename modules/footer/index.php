@@ -1,3 +1,4 @@
+<?php
 /*
     Kharlamov Engine
     Created by Mike Bradius
@@ -5,6 +6,7 @@
     Full source at https://github.com/bradius/kharlamov
     2013
 */
+?>
 <a href='/'><img src='template/images/footer.png' /></a>
 
 <!-- Yandex.Metrika counter -->

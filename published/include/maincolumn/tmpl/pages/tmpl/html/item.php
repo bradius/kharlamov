@@ -1,3 +1,4 @@
+<?php
 /*
     Kharlamov Engine
     Created by Mike Bradius
@@ -5,6 +6,7 @@
     Full source at https://github.com/bradius/kharlamov
     2013
 */
+?>
 <form id="editItem" method="POST" action="?option=save&item&id=<?=$_GET["id"];?>">
     <div id="itemCol" class="left">
         <div id="itemBlock">
